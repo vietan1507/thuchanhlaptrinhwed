@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap');
+body {
+    font-family: Roboto, sans-serif;
+    background: #e6ddb3; 
+    color: #000000;
+    font-size: 14px;
+    width: 1100px; 
+    margin: 0 auto; 
+    padding-top: 20px;
+}
+
+
+nav {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block; 
+    margin: 0 10px; 
+}
+
+nav a {
+    font-size: 18px;
+    color: #143552; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+    margin: 10px 0 30px 0;
+    font-family: 'Indie Flower', cursive;
+    font-weight: normal;
+}
+
+.img-container, header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-container img, header img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+article {
+    width: 31%; 
+    margin: 0 1.15%; 
+    float: left; 
+    box-sizing: border-box;
+    position: relative; 
+    padding-bottom: 60px; 
+    text-align: justify; 
+}
+
+
+article img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    display: block;
+}
+
+
+article p:not(:last-of-type)::first-letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    float: left; 
+    line-height: 0.8;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+
+a {
+    color: #0000ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+article p:last-of-type {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+article p:last-of-type a {
+    background: #9b6c27 url("images/bg2.jpg") no-repeat center center;
+    background-size: cover; 
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase; 
+    font-size: 12px;
+    display: inline-flex; 
+    align-items: center; 
+    margin-right: 5px; 
+    padding: 0 15px;
+    height: 35px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+article p:last-of-type span:first-of-type a::before { 
+    content: url("images/comment.png");
+    margin-right: 7px; 
+}
+
+footer {
+    clear: both; 
+    text-align: center;
+    padding: 20px 0;
+    font-size: 13px;
+    color: #333;
+}
