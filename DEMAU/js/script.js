@@ -17,9 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         // 2. Validate Email đúng định dạng
-        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailPattern.test(email)) {
-            alert("Email không đúng định dạng!");
+        if (/^[a-z0-9-_%+-]+@[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(email)) {
+            alert("Email sai định dạng!");
             e.preventDefault();
             return;
         }
