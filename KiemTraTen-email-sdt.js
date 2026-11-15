@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
       return alert('Tên không được chứa số và ký tự đặc biệt!');
     }
 
-    if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)) {
+    if (/^[a-z0-9-_%+-]+@[a-z0-9-]+(\.[a-z0-9-]+)+$/.test(email)) {
       return alert('Định dạng email không hợp lệ!');
     }
     
