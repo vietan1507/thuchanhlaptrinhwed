@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220">
+  <rect width="360" height="220" fill="#f7e9bc"></rect>
+  <rect x="108" y="25" width="144" height="174" rx="8" fill="#d28a43"></rect>
+  <path d="M124 25V199" stroke="#efb96c" stroke-width="5"></path>
+  <path d="M185 56L196 79L222 83L203 101L208 127
+           L185 115L162 127L167 101L148 83L174 79Z" fill="#fff1b6"></path>
+  <text x="185" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#fff">
+    THIẾU NHI
+  </text>
+</svg>

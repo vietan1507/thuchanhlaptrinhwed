@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 16px/1.5 Arial, sans-serif;
+  color: #34302d;
+  background: #f5efe7;
+}
+
+.wrapper {
+  width: 92%;
+  max-width: 1100px;
+  margin: 24px auto;
+  background: white;
+}
+
+/* begin header */
+
+/* end header */
+
+main {
+  padding: 20px;
+}
+
+.intro {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.intro-image,
+.intro-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.intro-image img {
+  display: block;
+  width: 100%;
+}
+
+h2 {
+  font-size: 20px;
+  color: #783544;
+  margin: 0 0 10px;
+}
+
+.intro-content > p {
+  margin: 0 0 16px;
+}
+
+form {
+  padding: 16px;
+  background: #fbf7f2;
+  border: 1px solid #e7d8c9;
+}
+
+label {
+  display: block;
+  margin: 8px 0 4px;
+}
+
+input {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #b9aaa0;
+  font: inherit;
+}
+
+button {
+  margin-top: 14px;
+  padding: 10px 20px;
+  border: 0;
+  background: #783544;
+  color: white;
+  font: inherit;
+  cursor: pointer;
+}
+
+#form-message {
+  margin: 8px 0 0;
+}
+
+.categories {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.card {
+  flex: 1;
+  min-width: 0;
+  background: #fbf7f2;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+}
+
+.card h2 {
+  margin: 12px 12px 6px;
+  font-size: 18px;
+}
+
+.card p {
+  margin: 0;
+  padding: 0 12px 14px;
+}
+
+footer {
+  padding: 16px 20px;
+  color: white;
+  background: #783544;
+}
+
+/* begin responsive */
+/* begin header */
+
+header {
+  background: white;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.logo img {
+  display: block;
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+}
+
+.contact {
+  text-align: right;
+}
+
+.contact h1 {
+  margin: 0;
+  font-size: 22px;
+  color: #783544;
+}
+
+.contact p {
+  margin: 5px 0 0;
+}
+
+.navbar {
+  background: #783544;
+}
+
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  display: block;
+  padding: 14px 22px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover,
+.navbar a:focus-visible {
+  background: #edc78b;
+  color: #783544;
+}
+/* begin responsive */
+
+@media (max-width: 599px) {
+  .wrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  .header-top,
+  .intro,
+  .categories {
+    flex-direction: column;
+  }
+
+  .contact {
+    text-align: center;
+  }
+
+  .intro-image,
+  .intro-content,
+  .card {
+    width: 100%;
+  }
+}
+
+/* end responsive */
+/* end header */
+/* end responsive */
