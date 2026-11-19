@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80">
+  <rect x="5" y="8" width="64" height="64" rx="14" fill="#17324d"></rect>
+  <path d="M29 26L17 40L29 54M46 26L58 40L46 54" fill="none" stroke="#ffb347" stroke-width="5"></path>
+  <path d="M41 23L34 57" stroke="#fff" stroke-width="4"></path>
+  <text x="82" y="39" font-family="Arial,sans-serif" font-size="25" font-weight="bold" fill="#17324d">
+    TECH ACADEMY
+  </text>
+  <text x="83" y="59" font-family="Arial,sans-serif" font-size="11" fill="#62778b">
+    HOC THUC TE - VUNG TUONG LAI
+  </text>
+</svg>
